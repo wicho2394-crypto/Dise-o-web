@@ -1,0 +1,74 @@
+#Padre {
+
+    height: 400px;
+    width: 600px;
+    background-color: rgb(42, 140, 165);
+    border-radius: 25px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.PrimeraParte {
+
+    width: auto;
+    height: 200px;
+    background-color: rgb(80, 255, 95);
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.Imagen {
+
+    height: auto;
+    width: 40%;
+    
+
+}
+
+.Imagen img {
+    height: 100%;
+    width: fit-content;
+}
+    
+
+.Informacion {
+
+    height: auto;
+    width: 60%;
+    background-color: rgb(62, 27, 216);
+}
+
+.Informacion ul{
+    list-style: none;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+}
+
+
+.SegundaParte {
+
+    width: auto;
+    height: 200px;
+    background-color: rgb(78, 78, 5);
+    justify-content: center;
+
+}
+
+/* La Segunda de abajo */
+.SegundaParte{
+    height: 200px;
+    width: auto;
+    background-color: beige;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    padding-left: 25px;
+    padding-right: 25px;
+}

@@ -1,0 +1,51 @@
+body{
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+#ficha{
+background-color: white;
+  width: 150px;
+  height: 250px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+
+
+}
+
+#perfil{
+  background-color: lightblue;
+  height: 67px;
+  width: 67px;
+  border-radius: 100%;
+
+  
+}
+#pro{
+  height: 10px;
+  width: 35px;
+  background-color: red;
+  color-scheme: initial;
+  flex-direction: row;
+   padding: 10px;
+   border-radius: 25px;
+}
+
+#diseño{
+  background-color: brown;
+  height: 120px;
+  width: 100;
+  flex-wrap: 100px;
+}
+
+
+h1{
+  background-color:aqua
+}

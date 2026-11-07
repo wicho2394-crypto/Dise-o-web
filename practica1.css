@@ -1,0 +1,13 @@
+#rectangulo{
+    background-color: black;
+    width: 150px;
+    height: 600px;
+    display: flex;
+}
+
+#circulo{
+    background-color: rgb(158, 14, 14);
+    width: 120px;
+    height: 250px;
+    border-radius: 100%;
+}
